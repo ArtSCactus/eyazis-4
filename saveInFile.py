@@ -4,10 +4,6 @@ def SaveFile(result,type):
                     '2 - Нет\n'))
     if actSave == 1:
         if type == 1:
-            file = open("results/result1.txt", "w")
-            file.write(str(result))
-            file.close()
-        elif type == 2:
-            file = open("results/result2.txt", "w")
+            file = open("results/result.txt", "w")
             file.write(str(result))
             file.close()

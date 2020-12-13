@@ -1,0 +1,4 @@
+Source: Hello world
+Translated: Hallo Welt
+Analytics: Hello -> amount of entrances: 1, word type: NNP
+world -> amount of entrances: 1, word type: NN

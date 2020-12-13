@@ -1,18 +1,15 @@
 import sys
 
-from translator import translate_text, translate_file
+from translator import translate_text
 
 
 def chooseMethod():
     chooseAct = int(input('Выберите источник текста:\n'
                     '1 - Ручной ввод\n'
-                    '2 - Файл\n'
-                    '3 - Выход\n'))
+                    '2 - Выход\n'))
     if chooseAct == 1:
         translate_text(input('Введите текст: '))
     elif chooseAct == 2:
-        translate_file(input('Введите путь к файлу'))
-    elif chooseAct == 3:
         print('До новых встреч!')
         sys.exit()
 
